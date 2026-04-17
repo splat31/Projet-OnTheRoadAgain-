@@ -1,6 +1,4 @@
-largeur = 3;
-hauteur = 5;
-epaisseur = 2;
+module wall(largeur=3, hauteur=5, epaisseur=2){
 difference(){
 difference(){
     cube([largeur*8, 20, hauteur*8]);
@@ -54,4 +52,5 @@ union(){
     }
 };
 
+}
 }
