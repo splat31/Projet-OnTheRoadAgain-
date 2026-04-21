@@ -13,6 +13,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  Serial.print("Skibidi\n");
   int x = analogRead(PHOTO);
   Serial.print("light :");
   Serial.println(x);
@@ -34,5 +35,5 @@ void loop() {
   }
 
 
-  delay(200);
+  delay(500);
 }
